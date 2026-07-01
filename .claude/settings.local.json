@@ -17,7 +17,8 @@
       "Bash(python scripts/search.py \"elegant luxury editorial serif\" --domain typography -n 3)",
       "Bash(find \"/c/Users/Liem Feller/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/43b5354a-9964-489c-8387-7defd1de5028/e5be07ae-3068-499c-aa11-643dc41cf473/skills/ui-ux-pro-max\" -maxdepth 2)",
       "Read(//c/Users/Liem Feller/Desktop/**)",
-      "Read(//c/Users/Liem Feller/**)"
+      "Read(//c/Users/Liem Feller/**)",
+      "Bash(npm run *)"
     ]
   }
 }

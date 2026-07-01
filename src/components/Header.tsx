@@ -43,7 +43,7 @@ function Header() {
           className="flex items-center justify-between rounded-2xl border border-[#f6ecdf]/12 bg-[#1c120b]/35 px-4 py-3 shadow-[0_8px_30px_rgba(10,6,3,0.25)] backdrop-blur-md sm:px-6"
         >
           <motion.a
-            href="/"
+            href="#home"
             className="font-serif text-lg font-medium tracking-wide text-[#f6ecdf] sm:text-xl"
             initial={initial}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
@@ -73,7 +73,7 @@ function Header() {
           </nav>
 
           <motion.a
-            href="/shop"
+            href="#coffee"
             className="hidden shrink-0 rounded-full bg-[#f6ecdf] px-5 py-2.5 text-sm font-medium tracking-wide text-[#2a1a10] transition-transform duration-300 hover:scale-[1.03] hover:bg-white lg:inline-block"
             initial={initial}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
@@ -173,7 +173,7 @@ function Header() {
               ))}
 
               <motion.a
-                href="/shop"
+                href="#coffee"
                 className="mt-4 rounded-full bg-[#f6ecdf] px-8 py-3.5 text-sm font-medium tracking-wide text-[#2a1a10]"
                 onClick={() => setMenuOpen(false)}
                 initial={{ opacity: 0, y: 16 }}

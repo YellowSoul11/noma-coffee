@@ -120,13 +120,13 @@ function Hero() {
           transition={{ duration: 0.8, ease: easeCinematic, delay: 0.55 + CTA_DELAY }}
         >
           <a
-            href="/shop"
+            href="#coffee"
             className="w-full rounded-full bg-[#f6ecdf] px-8 py-3.5 text-sm font-medium tracking-wide text-[#2a1a10] transition-transform duration-300 hover:scale-[1.03] hover:bg-white sm:w-auto"
           >
             Shop Coffee
           </a>
           <a
-            href="/subscriptions"
+            href="#subscriptions"
             className="w-full rounded-full border border-[#f6ecdf]/50 bg-white/5 px-8 py-3.5 text-sm font-medium tracking-wide text-[#f6ecdf] backdrop-blur-sm transition-colors duration-300 hover:bg-white/15 sm:w-auto"
           >
             Explore Subscriptions
